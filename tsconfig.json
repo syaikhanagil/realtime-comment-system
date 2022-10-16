@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "target": "ES2016",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "baseUrl": "./src",
+        "paths": {
+            "@/middlewares/*": [
+                "middlewares/*"
+            ],
+            "@/resources/*": [
+                "resources/*"
+            ],
+            "@/utils/*": [
+                "utils/*"
+            ]
+        },
+        "sourceMap": true,
+        "outDir": "dist",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "skipLibCheck": true
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "src/**/*.spec.ts",
+        ".vscode"
+    ]
+}
